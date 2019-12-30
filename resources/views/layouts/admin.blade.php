@@ -174,7 +174,7 @@
                             </li>
 
                             <li>
-                                <a href="">Upload Media</a>
+                                <a href="/media">Upload Media</a>
                             </li>
 
                         </ul>
