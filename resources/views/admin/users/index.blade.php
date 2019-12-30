@@ -4,6 +4,19 @@
 
     <h2>User Management</h2>
 
+    @if(Session::has('deleted_user'))
+        <p class="bg-danger" style="padding: 15px;">{{session('deleted_user')}}</p>
+    @endif
+
+    @if(Session::has('added_user'))
+        <p class="bg-success" style="padding: 15px;">{{session('added_user')}}</p>
+    @endif
+
+    @if(Session::has('updated_user'))
+        <p class="bg-success" style="padding: 15px;">{{session('updated_user')}}</p>
+    @endif
+
+
     <table class="table">
         <thead>
             <tr>
